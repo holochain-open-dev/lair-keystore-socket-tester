@@ -1,8 +1,8 @@
 [package]
 name = "lair-keystore-socket-tester"
-description = "Verify a holochain conductor is running and has a reachable app websocket at a given URL"
+description = "Verify a lair-keystore server is running and is reachable via a unix socket at a given URL"
 license = "MIT"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [profile.release]
