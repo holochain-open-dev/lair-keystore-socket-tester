@@ -4,7 +4,7 @@ use lair_keystore_api::ipc_keystore_connect;
 
 use url::Url;
 
-/// Verify a holochain conductor is running and has a reachable app websocket at a given URL
+/// Verify a lair-keystore server is running and is reachable via a unix socket at a given URL
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
