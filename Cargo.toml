@@ -1,0 +1,18 @@
+[package]
+name = "lair-keystore-socket-tester"
+description = "Verify a holochain conductor is running and has a reachable app websocket at a given URL"
+license = "MIT"
+version = "0.1.1"
+edition = "2021"
+
+[profile.release]
+strip = true
+opt-level = "z" 
+lto = true
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+lair_keystore_api = "=0.3.0"
+tokio = "1.32.0"
+serde = "=1.0.166"
+url = "2.4.1"
