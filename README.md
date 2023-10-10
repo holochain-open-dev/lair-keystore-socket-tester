@@ -1,16 +1,17 @@
-# Holochain App WS Tester
+# Lair Keystore Socket Tester
 
-Verify a holochain conductor is running and has a reachable app websocket at a given URL
+Verify a lair-keystore server is running and is reachable via a unix socket at a given URL
 
 ## Usage
 ```
-holochain-app-ws-tester [OPTIONS] <APP_WS>
+Usage: lair-keystore-socket-tester <SOCKET_URL> <PASSWORD>
 
 Arguments:
-  <APP_WS>  Holochain App WS URL
+  <SOCKET_URL>  Lair Keystore Socket URL
+  <PASSWORD>    Lair Keystore Password
 
 Options:
-  -i, --app-id <APP_ID>  hApp app-id running on the conductor
-  -h, --help             Print help
-  -V, --version          Print version
+  -h, --help     Print help
+  -V, --version  Print version
+
 ```
