@@ -2,7 +2,7 @@
 name = "lair-keystore-socket-tester"
 description = "Verify a lair-keystore server is running and is reachable via a unix socket at a given URL"
 license = "MIT"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 
 [profile.release]
